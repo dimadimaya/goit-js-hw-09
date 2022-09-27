@@ -8,7 +8,7 @@ const dataTimePicker = document.querySelector('#datetime-picker');
 const timeFace = document.querySelector('.timer');
 const btnStart = document.querySelector('button[data-start]');
 let interval = null;
-
+let selectedDate = null;
 btnStart.disabled = true;
 
 const options = {
